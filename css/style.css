@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    padding: 50px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.table td, .table th {
+  padding: 0.2rem;
+}
+
+.progress {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80vmin;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
